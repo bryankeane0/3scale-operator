@@ -40,10 +40,10 @@ spec:
         resources:
           limits:
             cpu: 100m
-            memory: 101Mi
+            memory: 100Mi
           requests:
             cpu: 100m
-            memory: 101Mi
+            memory: 100Mi
         env:
         - name: WATCH_NAMESPACE
           valueFrom:
